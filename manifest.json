@@ -1,12 +1,9 @@
 {
   "name": "PAGE'ngo",
   "description": "Mit PAGE'ngo erstellen Sie kostenlos, einfach und in wenigen Minuten ihr eigene Website.",
-  "version": "1.1.1",
-  "icons": { "24": "24.png", "128": "128.png" },
+  "version": "1.1.3",
+  "icons": { "16":"16.png", "24": "24.png", "128": "128.png" },
   "app": {
-    "urls": [
-      "http://pagengo.de/"
-    ],
     "launch": {
       "local_path": "main.html"
     }
