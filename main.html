@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>PAGE'ngo Redirecting...</title>
+        <link rel="shortcut icon" href="/icon_16.png">
+    </head>
+    <script type="text/javascript">
+        function get_options() {
+            var saved = localStorage["pngo_saved_url"];
+            if(saved == undefined || saved == null || saved == '') {
+                window.location = "options.html";
+            } else {
+                window.location = "http://" + saved + ".pagengo.de";
+            }
+        }
+    </script>
+    <body onload="get_options()">
+        Redirecting...
+    </body>
+</html>
